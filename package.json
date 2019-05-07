@@ -1,0 +1,16 @@
+{
+  "name": "mac-display",
+  "version": "2019.4.13",
+  "description": "macOS display sleep/wake",
+  "keywords": [
+    "display"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/mac-display",
+  "license": "Unlicense",
+  "bin": {
+    "display": "./scripts/display",
+    "display-sleep": "./scripts/display-sleep",
+    "display-state": "./scripts/display-state",
+    "display-wake": "./scripts/display-wake"
+  }
+}
