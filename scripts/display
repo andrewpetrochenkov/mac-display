@@ -3,7 +3,7 @@
 
 usage() {
     cat <<EOF 1>&2
-usage: $(basename $0) command [args]
+usage: $(basename $0) sleep|state|wake
 
 Available commands:
     sleep                    sleep display

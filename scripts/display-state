@@ -10,5 +10,5 @@ usage() {
 
 [[ $# != 0 ]] && usage "$@"
 
-echo $(ioreg -n IODisplayWrangler | grep -i IOPowerManagement | perl -pe 's/^.*DevicePowerState\"=([0-9]+).*$/\1/')/4 | bc
+echo $(/usr/sbin/ioreg -n IODisplayWrangler | grep -i IOPowerManagement | perl -pe 's/^.*DevicePowerState\"=([0-9]+).*$/\1/')/4 | bc
 
